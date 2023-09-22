@@ -1,0 +1,83 @@
+body{
+    background-color: antiquewhite;
+}
+.LoginContainer{
+    width: 50%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: darkgrey
+}
+.LoginContainer .loginForm{
+    width: 100%;
+    padding: 20px;
+   display: grid;
+   place-items: center;
+}
+.RegisterContainer{
+    width: 50%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: darkgrey
+}
+.RegisterContainer .RegisterForm  {
+    width: 100%;
+    padding: 20px;
+   display: grid;
+   place-items: center;
+}
+.OrderContainer{
+    width: 50%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: darkgrey;
+}
+.OrderContainer form{
+    width: 100%;
+    padding: 20px;
+   display: grid;
+   place-items: center;
+   
+   
+}
+.submitButton{
+    margin-left: -70px;
+}
+.form-control{
+   width: 400px;
+} 
+.LoginContainer .LoginForm-control{
+    width: 400px;
+}  
+
+
+@media screen and (max-width :600px) {
+    .OrderContainer{
+        width: 90%;
+    }
+    .form-control{
+        width: 300px;
+    }  
+    
+    
+    .LoginContainer{
+        width: 90%;
+    }
+    .RegisterContainer{
+        width: 90%;
+    }
+}
